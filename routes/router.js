@@ -2,7 +2,6 @@ const express = require('express')
 const router = express.Router()
 const draftController = require('../controller/userController')
 const { google } = require('googleapis');
-const apikeys = require('../apikey.json');
 const { createFileInDrive } = require('../driveService');
 
 
